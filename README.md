@@ -1,24 +1,31 @@
 # Tesla Coil Build Guide
 
-## ⚠️ Safety First!
+## ⚠️ Safety First - made by @DiodeGoneWild!
 
-**WARNING: Building and operating any Tesla coil is extremely dangerous!!! This guide is for educational and entertainment purposes only!!! You do everything at your own risk and responsibility!!!**
+**WARNING: Building and operating any Tesla coil is EXTREMELY DANGEROUS!!!**  
+**This guide is for educational and entertainment purposes only!!!**  
+**You do everything at your own risk and responsibility!!!**
 
-- Mains voltage is dangerous!
-- Tesla coils work with and produce extremely dangerous high voltage.
-- Capacitors may remain charged to a dangerous voltage even after being disconnected from power.
-- Risk of electric shock and death. Risk of fire. Risk of explosion.
-- Risk of serious injury or burns.
-- Electric arcs produce strong infrared, visible, and ultraviolet light — risk of serious eyesight damage and skin damage.
-- Electric arcs produce toxic gases, especially nitrogen oxides and ozone.
-- Tesla coils produce strong electromagnetic interference. This may be illegal in some regions.
-- Electromagnetic radiation from Tesla coils may damage storage media and electronic devices, including life-support devices.
-- Vacuum vessels may produce harmful X-ray radiation when exposed to high voltage from a Tesla coil, even at a distance (capacitively coupled).
-- Do NOT open, repair, modify, or build any electric devices unless you are qualified for it.
-- Do NOT attempt to do what you see in any videos or guides.
-- The experiments shown in any Tesla coil videos are extremely dangerous! This guide and any related content are **not** instructions — they are for entertainment and educational purposes only.
+<img width="1393" height="783" alt="safety" src="https://github.com/user-attachments/assets/bda9af59-935f-4003-8ce2-de76c14dfd69" />
 
-**Never build or operate a Tesla coil without proper safety training, protective gear, and full understanding of the risks.**
+## ⚠️ Safety Simplified ( Dummy-Proof 💯 )
+
+If you’re thinking “eh, it’ll be fine” — **Tesla Coils can kill you!**
+
+- **Never touch anything while the circuit is powered on. EVER.**
+- **Always discharge capacitors with grounded tools and gloves.**
+- Wear **thick high-voltage insulating gloves, safety glasses, hearing protection**
+- Wear a **respirator or gas mask for ozone and nitrogen oxides**
+- Wear **non-conductive shoes - thick rubber soles**
+- Work in a **well-ventilated area or outdoors**
+- Keep a **Class C fire extinguisher - for electrical fires**
+- **Never work alone**
+- Keep flammable stuff (gasoline, paper, wood dust, curtains) far away.
+- Ground the coil properly — but **never** use your house ground as the only return path.
+- Turn off and unplug everything before adjusting or fixing anything.
+- If you have a pacemaker, hearing aid, or any medical implant — stay far away from running Tesla coils.
+
+If you’re not 100% sure what you’re doing, **don’t do it**. Start with a tiny Slayer Exciter on 12V batteries instead of 5kW SGTC.
 
 ## Types of Tesla Coils
 
