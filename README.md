@@ -1,5 +1,8 @@
 # Tesla Coil Build Guide
 
+<img width="" height="45%" alt="unnamed" src="https://github.com/user-attachments/assets/609acf69-fad7-4179-8c92-6dba36bac857" /><img width="45%" height="360" alt="sstc_feat" src="https://github.com/user-attachments/assets/53e7e349-55f7-42fd-82d0-6165053b02d3" />
+
+
 ## ⚠️ Safety First - made by @DiodeGoneWild!
 
 **WARNING: Building and operating any Tesla coil is EXTREMELY DANGEROUS!!!**  
