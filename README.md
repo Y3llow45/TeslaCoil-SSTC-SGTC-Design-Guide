@@ -1,6 +1,6 @@
 # Tesla Coil Build Guide
 
-<img width="512px" height="512px" alt="unnamed" src="https://github.com/user-attachments/assets/609acf69-fad7-4179-8c92-6dba36bac857" /><img width="341px" height="512px" alt="Tesla3" src="https://github.com/user-attachments/assets/a86c80f4-a011-4549-9ea9-549d0b98234e" />
+<img width="500px" height="500px" alt="unnamed" src="https://github.com/user-attachments/assets/609acf69-fad7-4179-8c92-6dba36bac857" /><img width="333px" height="500px" alt="Tesla3" src="https://github.com/user-attachments/assets/a86c80f4-a011-4549-9ea9-549d0b98234e" />
 
 
 ## ⚠️ Safety First - made by @DiodeGoneWild!
