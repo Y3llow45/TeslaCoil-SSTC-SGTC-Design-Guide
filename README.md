@@ -2,6 +2,17 @@
 
 <img width="500px" height="500px" alt="unnamed" src="https://github.com/user-attachments/assets/609acf69-fad7-4179-8c92-6dba36bac857" /><img width="333px" height="500px" alt="Tesla3" src="https://github.com/user-attachments/assets/a86c80f4-a011-4549-9ea9-549d0b98234e" />
 
+## Steps
+
+1. **Safety First! Read everything! It's interesting!**
+
+2. **Learn how Tesla Coils work - resonance of two coils!**
+
+3. **Build Slayer Exciter → SGTC → SSTC → VTTC → DRSSTC → QCWSSTC → power a city wirelessly ( Nikola Tesla's biggest dream )**  
+
+4. **Tune and Troubleshoot for huge sparks!**  
+
+5. **Take pics and videos to impress your date!**
 
 ## ⚠️ Safety First - made by @DiodeGoneWild!
 
@@ -90,15 +101,3 @@ Single-transistor self-oscillating circuit with feedback winding.
 - **Cons**: Very low power, not for big sparks.
 - **Cool stuff**: Lights bulbs wirelessly from across the room; perfect first project.
 ---
-
-## Next Steps
-
-1. **Safety First! Read everything!**
-
-2. **Learn how Tesla Coils work**
-
-3. **Build Slayer Exciter → SGTC → SSTC → VTTC → DRSSTC → QCWSSTC**  
-
-6. **Tune and Troubleshoot**  
-
-8. **Take pics and videos**
