@@ -67,7 +67,7 @@ Classic design: high-voltage transformer charges a capacitor until the spark gap
 - 
 <table>
   <tr>
-    <td><img width="533" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" /></td>
+    <td><img width="80%" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" /></td>
     <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" /></td>
   </tr>
 </table>
