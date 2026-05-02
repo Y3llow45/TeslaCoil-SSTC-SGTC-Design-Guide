@@ -65,6 +65,13 @@ Classic design: high-voltage transformer charges a capacitor until the spark gap
 - **Cons**: Noisy, high ozone, needs heavy HV transformers. 
 - **Cool stuff**: Many restored antique rotary-gap builds still hit multi-meter arcs on a few kW.
 
+<table>
+  <tr>
+    <td><img width="533" height="300" alt="ezgif com-resize" src="https://github.com/user-attachments/assets/2940ce3b-2a7f-48d2-89fd-01f6b5d12f96" /></td>
+    <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" /></td>
+  </tr>
+</table>
+
 **Solid-State Tesla Coil (SSTC)**  
 Transistors (MOSFETs/IGBTs) replace the spark gap for clean resonant drive. Supports interrupted or CW mode.
 - **Pros**: Quiet, runs on low DC voltage, easy pulse control. 
