@@ -14,7 +14,7 @@
 
 5. **Take pics and videos to impress your date!**
 
-## ⚠️ Safety First - made by @DiodeGoneWild!
+## ⚠️ Safety First - image by @DiodeGoneWild!
 
 **WARNING: Building and operating any Tesla coil is EXTREMELY DANGEROUS!!!**  
 **This guide is for educational and entertainment purposes only!!!**  
@@ -64,11 +64,11 @@ Classic design: high-voltage transformer charges a capacitor until the spark gap
 - **Pros**: Robust, forgiving of bad tuning, raw power and thunderous sound.
 - **Cons**: Noisy, high ozone, needs heavy HV transformers. 
 - **Cool stuff**: Many restored antique rotary-gap builds still hit multi-meter arcs on a few kW.
-- 
+
 <table>
   <tr>
-    <td><img width="100%" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" /></td>
-    <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" /></td>
+    <td><img width="100%" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" /><br>@Styropyro</td>
+    <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" /><br>@DiodeGoneWild</td>
   </tr>
 </table>
 
