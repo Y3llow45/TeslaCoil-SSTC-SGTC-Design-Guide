@@ -67,8 +67,8 @@ Classic design: high-voltage transformer charges a capacitor until the spark gap
 
 <table>
   <tr>
-    <td><img width="100%" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" /><br>@Styropyro</td>
-    <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" /><br>@DiodeGoneWild</td>
+    <td><img width="100%" height="300" alt="ezgif-40f1b95a1692ee23" src="https://github.com/user-attachments/assets/e9c60fc7-b0d4-4c0d-aa31-2f0c4246926c" />@Styropyro</td>
+    <td><img width="400" height="300" alt="tesla501" src="https://github.com/user-attachments/assets/d9b474a2-50cd-4836-959e-4d56150e5a03" />@DiodeGoneWild</td>
   </tr>
 </table>
 
@@ -77,6 +77,13 @@ Transistors (MOSFETs/IGBTs) replace the spark gap for clean resonant drive. Supp
 - **Pros**: Quiet, runs on low DC voltage, easy pulse control. 
 - **Cons**: Needs solid gate drive and protection.
 - **Cool stuff**: Class-E versions run cool and efficient; simple upgrade from Slayer exciters.
+
+<table>
+  <tr>
+    <td><img width="720" height="960" alt="wIMG_0393" src="https://github.com/user-attachments/assets/72352349-84f9-47c6-892b-f833b801d441" />Gao Guangyan</td>
+    <td><img width="1105" height="989" alt="1814249525702" src="https://github.com/user-attachments/assets/c650c580-a4b2-4130-9abc-e5455683a2cc" />PCBWay</td>
+  </tr>
+</table>
 
 **Musical Tesla Coil (Zeusaphone)**  
 Modulated SSTC/DRSSTC that turns the arc into a plasma speaker via MIDI interrupter.
