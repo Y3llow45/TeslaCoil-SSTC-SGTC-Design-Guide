@@ -97,17 +97,37 @@ Adds primary capacitor for dual resonance and massive peak currents.
 - **Cons**: Critical tuning and expensive IGBT protection needed.
 - **Cool stuff**: Steve Ward designs started the modern hobby; record builds reach 4× secondary length.
 
+<table>
+  <tr>
+    <td><img width="1422" height="800" alt="09nov2013_drsstc2_2" src="https://github.com/user-attachments/assets/32b96d58-b964-4273-9729-4f21539f1954" />Gao Guangyan</td>
+  </tr>
+</table>
+
 **Vacuum Tube Tesla Coil (VTTC)**  
 Vacuum tubes (811A, 833A, etc.) in a Class-C oscillator for continuous-wave output.
 - **Pros**: Smooth sword-like streamers, classic tube sound.
 - **Cons**: High heat, needs filament supply and careful feedback tuning.
 - **Cool stuff**: Retro feel with quiet, steady plasma; closest to Tesla’s original CW vision.
 
+<table>
+  <tr>
+    <td><img width="510" height="383" alt="nahlad2_vttc11" src="https://github.com/user-attachments/assets/23fd5474-8fa4-489d-a5e0-fb1f03d2b932" />Jakub Tejiščák</td>
+    <td><img width="510" height="383" alt="nahlad2_vttc14" src="https://github.com/user-attachments/assets/94121b07-9c4a-4488-bcf6-4bd56d206986" />Jakub Tejiščák</td>
+  </tr>
+</table>
+
 **Continuous Wave Tesla Coil (CWTC)**  
 SSTC-style driver run in true continuous mode with no interrupter. Produces steady flame-like plasma.  
 - **Pros**: Beautiful silent continuous discharges for demos and artistic effects.  
 - **Cons**: High continuous heat — often needs water cooling or huge heatsinks.  
 - **Cool stuff**: Rare in modern builds; feels closest to Tesla’s original wireless power experiments.
+
+<table>
+  <tr>
+    <td><img width="800" height="600" alt="sstc4_01" src="https://github.com/user-attachments/assets/82203d0f-fa23-4239-a4d6-e01f3ed77974" />danyk.cz</td>
+    <td><img width="922" height="691" alt="sstc234" src="https://github.com/user-attachments/assets/dc06e8c6-c0cd-40b0-9b99-4544a6f73b02" />stirlingkit.com</td>
+  </tr>
+</table>
 
 **Slayer Exciter / Magnifier Circuit**  
 Single-transistor self-oscillating circuit with feedback winding.
