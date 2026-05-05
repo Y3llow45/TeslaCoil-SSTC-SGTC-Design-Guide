@@ -51,9 +51,10 @@ Tesla coils come in many topologies, each with different trade-offs in complexit
 | Type | Description | Difficulty | Approx. Efficiency | Best For |
 |-------------------------------|-----------------------------------------------------------------------------|----------------|-----------------------------|-----------------------------------|
 | Spark Gap Tesla Coil (SGTC) | Classic design using a spark gap, high-voltage capacitor, and transformer (e.g., NST) to create loud, bright, high-power arcs. | 4/10 | Low (10–25%) | Traditional loud arcs, high power on a budget |
-| Solid-State Tesla Coil (SSTC)| Uses MOSFETs/IGBTs for electronic switching instead of a spark gap. Cleaner, quieter, and more controllable. Supports interrupted (pulsed) or continuous wave (CW) mode. Includes high-efficiency Class-E variants. | 5/10 | Medium–High (30–70%) (up to Very High ~70–95% driver in optimized Class-E versions) | Reliable, quiet operation |
+| Solid-State Tesla Coil (SSTC)| Uses MOSFETs/IGBTs for electronic switching instead of a spark gap. Cleaner, quieter, and more controllable. Supports interrupted (pulsed) or continuous wave (CW) mode. Includes high-efficiency Class-E variants. | 6/10 | Medium–High (30–70%) (up to Very High ~70–95% driver in optimized Class-E versions) | Reliable, quiet operation |
 | Musical Tesla Coil (Zeusaphone) | SSTC or DRSSTC variant that modulates spark frequency/pulse width to play music (MIDI/interrupter). | 6/10 | Medium–High (30–95%) | Entertainment, shows |
-| Dual Resonant Solid State Tesla Coil (DRSSTC) | SSTC with an extra primary capacitor for dual resonance. Handles massive peak currents for very long arcs. | 9/10 | High (50–95%+) | Maximum spark length, musical performance |
+| Dual Resonant Solid State Tesla Coil (DRSSTC) | SSTC with an extra primary capacitor for dual resonance. Handles massive peak currents for very long arcs. | 10/10 | High (50–95%+) | Maximum spark length, musical performance |
+| Quasi-Continuous Wave DRSSTC (QCWDRSSTC) | DRSSTC variant with slowly ramped bus voltage for long, straight, sword-like sparks. | 10/10 | High (50–95%+) | Impressive long straight arcs, modern show coils |
 | Vacuum Tube Tesla Coil (VTTC) | Uses powerful vacuum tubes (e.g., 811A, 833A, GU-81M) as the oscillator/switch in a Class-C Armstrong oscillator circuit. Often runs in continuous wave mode producing smooth, sword-like streamers. | 7/10 | Medium–High (40–70%) | Classic tube sound, continuous-wave plasma, retro builds |
 | Slayer Exciter / Magnifier Circuit | Ultra-simple single-transistor self-resonant oscillator. Low-power, compact, often used for wireless bulb lighting. | 2/10 | Very Low (<25%) | Education, first project, demos |
 
@@ -100,6 +101,19 @@ Adds primary capacitor for dual resonance and massive peak currents.
 <table>
   <tr>
     <td><img width="1422" height="800" alt="09nov2013_drsstc2_2" src="https://github.com/user-attachments/assets/32b96d58-b964-4273-9729-4f21539f1954" />Gao Guangyan</td>
+  </tr>
+</table>
+
+**Quasi-Continuous Wave DRSSTC (QCWDRSSTC)**
+DRSSTC with slow bus voltage ramping to create long, straight, sword-like sparks.
+- **Pros**: Extremely impressive arcs
+- **Cons**: Complex ramp control (buck converter or staccato) and precise tuning required.
+- **Cool stuff**: Very beautiful long arcs.
+
+<table>
+  <tr>
+    <td><img width="1520" height="1080" alt="123" src="https://github.com/user-attachments/assets/a3dcc196-14b0-430e-a9aa-b3035cf2479e" />@jmartis2 - btw this guy makes super cool videos</td>
+    <td><img width="1520" height="1080" alt="124" src="https://github.com/user-attachments/assets/0a376099-dba3-4147-ae2b-6d9ee3d0cf50" />@Magneticitist | Most QCW look like this</td>
   </tr>
 </table>
 
