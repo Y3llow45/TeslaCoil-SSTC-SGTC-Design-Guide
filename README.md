@@ -154,4 +154,5 @@ Single-transistor self-oscillating circuit with feedback winding.
     <td><img width="60%" height="888" alt="MusicalKit_build" src="https://github.com/user-attachments/assets/7501a599-45b6-4e6f-aa8a-f88c4d712158" /><br>leap.tardate.com</td>
   </tr>
 </table>
----
+
+### How does it work?
