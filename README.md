@@ -156,3 +156,8 @@ Single-transistor self-oscillating circuit with feedback winding.
 </table>
 
 ### How does it work?
+1.resonans
+2. components
+3. SSTC by hyperspacepirate
+4. slayer exciter
+5. sgtc
