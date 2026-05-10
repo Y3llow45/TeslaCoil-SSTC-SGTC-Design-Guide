@@ -58,7 +58,7 @@ Tesla coils come in many topologies, each with different trade-offs in complexit
 | Vacuum Tube Tesla Coil (VTTC) | Uses powerful vacuum tubes (e.g., 811A, 833A, GU-81M) as the oscillator/switch in a Class-C Armstrong oscillator circuit. Often runs in continuous wave mode producing smooth, sword-like streamers. | 7/10 | Medium–High (40–70%) | Classic tube sound, continuous-wave plasma, retro builds |
 | Slayer Exciter / Magnifier Circuit | Ultra-simple single-transistor self-resonant oscillator. Low-power, compact, often used for wireless bulb lighting. | 2/10 | Very Low (<25%) | Education, first project, demos |
 
-### Detailed Breakdown
+## Detailed Breakdown
 
 **Spark Gap Tesla Coil (SGTC)**  
 Classic design: high-voltage transformer charges a capacitor until the spark gap fires into the primary. Produces loud, branching arcs.
@@ -155,8 +155,13 @@ Single-transistor self-oscillating circuit with feedback winding.
   </tr>
 </table>
 
-### How does it work?
-1.resonans
+## How does it work?
+
+#### THAT'S IT: AC pulses going through primary coil at specific frequency that needs to match the resonant frequency of the secondary coil
+
+1. asd
+
+1. resonans
 2. components
 3. SSTC by hyperspacepirate
 4. slayer exciter
