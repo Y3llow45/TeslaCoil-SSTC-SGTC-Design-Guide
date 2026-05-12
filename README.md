@@ -157,10 +157,53 @@ Single-transistor self-oscillating circuit with feedback winding.
 
 ## How does it work?
 
-#### THAT'S IT: AC pulses going through primary coil at specific frequency that needs to match the resonant frequency of the secondary coil
+#### IMPORTANT: AC or switched DC (most modern builds use switched DC) goes through the primary coil at a specific frequency that matches the resonant frequency of the secondary coil.
 
-1. asd
+When both coils resonate at the same frequency, energy transfer becomes extremely efficient, causing the voltage in the secondary coil to rise massively.
 
+### Important things common to most Tesla coils
+
+- Primary coil → generates changing magnetic field
+- Secondary coil → receives energy and steps voltage up
+- Top load (toroid/sphere) → adds capacitance, helps tuning, and controls discharge behavior
+- Resonance/tuning → primary and secondary frequencies must match closely
+- Grounding → very important for proper operation and safety
+- Coupling → spacing between coils affects efficiency and stability
+
+### Slayer Exciter
+
+A Slayer Exciter is one of the simplest Tesla-coil-like circuits. It uses a transistor and feedback winding to rapidly switch DC through the primary coil. The circuit self-oscillates near the secondary's resonant frequency.
+
+Pros:
+- Simple
+- Cheap
+- Easy to build
+
+Cons:
+- Low power
+- Inefficient
+- Poor control
+
+### SGTC (Spark Gap Tesla Coil)
+
+The classic Tesla coil design.
+
+A high-voltage source charges a capacitor until the spark gap fires. The capacitor then rapidly dumps energy into the primary coil, creating high-frequency oscillations that transfer energy into the secondary coil through resonance.
+
+Pros:
+- Simple
+- Huge arcs
+- Classic appearance/sound
+
+Cons:
+- Loud
+- Inefficient
+- Harder to control
+- Generates lots of heat and EMI
+
+### More advanced types
+
+SSTC, DRSSTC, QCW SSTC, and VTTC use more advanced driving methods and control electronics. They will be explained later.
 1. resonans
 2. components
 3. SSTC by hyperspacepirate
