@@ -174,38 +174,9 @@ When both coils resonate at the same frequency, energy transfer becomes extremel
 
 A Slayer Exciter is one of the simplest Tesla-coil-like circuits. It uses a transistor and feedback winding to rapidly switch DC through the primary coil. The circuit self-oscillates near the secondary's resonant frequency.
 
-Pros:
-- Simple
-- Cheap
-- Easy to build
+Simplest circuit out there:
+<img width="524" height="279" alt="c1GkH" src="https://github.com/user-attachments/assets/4f15524a-fed5-430d-8a73-72b8f6a8b076" />
 
-Cons:
-- Low power
-- Inefficient
-- Poor control
+Better results with this circuit:
+<img width="620" height="420" alt="bMg92" src="https://github.com/user-attachments/assets/f99f46a5-d429-4723-916e-b9b2d3734df6" />
 
-### SGTC (Spark Gap Tesla Coil)
-
-The classic Tesla coil design.
-
-A high-voltage source charges a capacitor until the spark gap fires. The capacitor then rapidly dumps energy into the primary coil, creating high-frequency oscillations that transfer energy into the secondary coil through resonance.
-
-Pros:
-- Simple
-- Huge arcs
-- Classic appearance/sound
-
-Cons:
-- Loud
-- Inefficient
-- Harder to control
-- Generates lots of heat and EMI
-
-### More advanced types
-
-SSTC, DRSSTC, QCW SSTC, and VTTC use more advanced driving methods and control electronics. They will be explained later.
-1. resonans
-2. components
-3. SSTC by hyperspacepirate
-4. slayer exciter
-5. sgtc
