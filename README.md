@@ -168,15 +168,62 @@ When both coils resonate at the same frequency, energy transfer becomes extremel
 - Top load (toroid/sphere) → adds capacitance, helps tuning, and controls discharge behavior
 - Resonance/tuning → primary and secondary frequencies must match closely
 - Grounding → very important for proper operation and safety
-- Coupling → spacing between coils affects efficiency and stability
+- Coupling → spacing between coils affects efficiency and stability (capacity, room temp, size and humidty and other things effect the efficiency too)
 
 ### Slayer Exciter
 
 A Slayer Exciter is one of the simplest Tesla-coil-like circuits. It uses a transistor and feedback winding to rapidly switch DC through the primary coil. The circuit self-oscillates near the secondary's resonant frequency.
 
-Simplest circuit out there:
-<img width="524" height="279" alt="c1GkH" src="https://github.com/user-attachments/assets/4f15524a-fed5-430d-8a73-72b8f6a8b076" />
+**Simplest circuit out there:** <br>
+<img width="524" height="279" alt="c1GkH" src="https://github.com/user-attachments/assets/4f15524a-fed5-430d-8a73-72b8f6a8b076" /> <br>
+**Secondary turns:** 300-350 turns ( most articles/videos suggest 275 ) <br>
+**Secondary wire:** 32AWG/0.25mm - 30AWG/0.2mm is ideal <br>
+**Secondary diameter:** most use 2cm diameter ( 1.5 - 2.5cm is good ) <br>
+Secondary length will be around 7cm <br>
 
-Better results with this circuit:
-<img width="620" height="420" alt="bMg92" src="https://github.com/user-attachments/assets/f99f46a5-d429-4723-916e-b9b2d3734df6" />
+**Primary turns:** try with 3, 4 and 5 ( 3 should work good) <br>
+**Primary wire:** 22AWG/0.65mm ( Thicker wire lowers primary impedance ) <br>
+**Primary placement:** Around the secondary NOT ON TOP! There need to be some space. <br>
+**Primary height:** Doesn't matter it just needs to sit under 25% of the secondary's height <br>
 
+**Resistor:** 22K (10-15k - strong field, hot transistor, 30-47k - weak field, safe transistor) <br>
+You can use potentiometer instead of a resistor! <br>
+
+**Transistor:** <br>
+Best option is PN2222 / KN2222 - 800ma! <br>
+BD139 / TIP31C is heavy duty - 1.5 / 3A! You can try it after using PN2222 ( you can swap the LED for a 1N4148 or 1N4007 diode but don't expect big changes ) <br>
+BC547 / BC548 is super weak so don't use it - only 100ma! <br>
+2N3904 will overheat in 5seconds - only 200ma! <br>
+
+**Better results with this circuit:** <br>
+<img width="620" height="420" alt="bMg92" src="https://github.com/user-attachments/assets/f99f46a5-d429-4723-916e-b9b2d3734df6" /> <br>
+**Secondary turns:** 200-500 turns ( i made one with 250turns, 3cm diameter, 0.25mm wire ) <br>
+**Secondary wire:** Up to 24AWG/0.5mm ( Tinner wire will get you more turns but way more resistance so don' focus on that ) <br>
+**Secondary diameter:** 3cm ±0.5cm <br>
+Secondary length will be between 12 - 16cm <br>
+
+**Primary turns:** try with 1 first <br>
+**Primary wire:** 22AWG/2mm - 16AWG/1.3mm - Experiment with other thicknesses too! (you will have to adjust diameter, turns and primary) <br>
+**Primary placement:** Leave 5mm - 10mm air gap <br>
+**Primary height:** Doesn't matter it just needs to sit under 25% of the secondary's height <br>
+
+**Fixed Resistor:** 47 and 50ohm are most comonly used but you can try with higher values <br>
+**POWER RATING**: Big one 5W or 10W otherwise it will start smoking <br>
+**DO NOT USE POTENTIOMETER HERE BECAUSE IT WILL GET FRIED!** <br>
+Potentiometers power rating is very low: 0.1W - 0.5W and up to 5W for bigger ones! <br>
+
+**Linear potentiometer**: 1k-5l ohm <br>
+
+**Filter capacitor**: 1µF - 4.7µF ( 4.7µF have always worked super good for me! ) <br>
+**Material**: Film or Ceramic capacitor to handle the high frequency! Electrolytic capacitor will explode! <br>
+
+**Transistor + heatsink:** <br>
+IRF540 is BEST but it will die if u use it without heatsink over 20V
+Good alternatives are IRF640 or IRF740 but you will have to turn the potentiometer a bit more ( 1k ohm higher resistance required to start oscillation )
+IRFZ44N will burn out INSTANTLY! These fry super fast!
+
+**Before you run the circuit:**
+Start with 12V and debug! <br>
+Then 14/15V( you can use AC/DC power adapter from your monitor just isolate the + away from the - otherwise your monitor will no longer turn on like mine ). <br>
+**Anything over 18V is dangerous for the gate of the mosfet/transistor so you must use 12-18V Zener diode 1-5W**
+**Anything over 18V is dangerous for the mosfet/transistor so you must use HEATSINK(a big one and please just don't dip it water, okay??? )**
