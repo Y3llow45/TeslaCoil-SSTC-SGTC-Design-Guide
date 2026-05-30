@@ -208,7 +208,7 @@ Secondary length will be between 12 - 16cm <br>
 **Primary height:** Doesn't matter it just needs to sit under 25% of the secondary's height <br>
 
 **Fixed Resistor:** 47 and 50ohm are most comonly used but you can try with higher values <br>
-**POWER RATING**: Big one 5W or 10W otherwise it will start smoking <br>
+**Power Rating**: Big one 5W or 10W otherwise it will start smoking <br>
 **DO NOT USE POTENTIOMETER HERE BECAUSE IT WILL GET FRIED!** <br>
 Potentiometers power rating is very low: 0.1W - 0.5W and up to 5W for bigger ones! <br>
 
@@ -222,9 +222,9 @@ IRF540 is BEST but it will die if u use it without heatsink over 20V
 Good alternatives are IRF640 or IRF740 but you will have to turn the potentiometer a bit more ( 1k ohm higher resistance required to start oscillation )
 IRFZ44N will burn out **INSTANTLY!** These fry super fast!
 
-**Before you run the circuit:**
+**Before you power on the circuit:**
 Start with 12V and debug! <br>
-Then 14/15V( you can use AC/DC power adapter from your monitor just isolate the + away from the - otherwise your monitor will no longer turn on like mine ). <br>
+Then 14/15V( you can use AC/DC power adapter from your monitor, just isolate the **+** away from the **-** to prevent short circuit otherwise your monitor will no longer turn on like mine ). <br>
 **Anything over 18V is dangerous for the gate of the mosfet/transistor so you must use 12-18V Zener diode 1-5W**
 **Anything over 18V is dangerous for the mosfet/transistor so you must use HEATSINK(a big one and please just don't dip it water!)**
 
