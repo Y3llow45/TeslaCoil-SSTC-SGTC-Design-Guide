@@ -220,10 +220,12 @@ Potentiometers power rating is very low: 0.1W - 0.5W and up to 5W for bigger one
 **Transistor + heatsink:** <br>
 IRF540 is BEST but it will die if u use it without heatsink over 20V
 Good alternatives are IRF640 or IRF740 but you will have to turn the potentiometer a bit more ( 1k ohm higher resistance required to start oscillation )
-IRFZ44N will burn out INSTANTLY! These fry super fast!
+IRFZ44N will burn out **INSTANTLY!** These fry super fast!
 
 **Before you run the circuit:**
 Start with 12V and debug! <br>
 Then 14/15V( you can use AC/DC power adapter from your monitor just isolate the + away from the - otherwise your monitor will no longer turn on like mine ). <br>
 **Anything over 18V is dangerous for the gate of the mosfet/transistor so you must use 12-18V Zener diode 1-5W**
-**Anything over 18V is dangerous for the mosfet/transistor so you must use HEATSINK(a big one and please just don't dip it water, okay??? )**
+**Anything over 18V is dangerous for the mosfet/transistor so you must use HEATSINK(a big one and please just don't dip it water!)**
+
+# Still working on this! More circuits are comming soon!
