@@ -227,5 +227,7 @@ Start with 12V and debug! <br>
 Then 14/15V( you can use AC/DC power adapter from your monitor, just isolate the **+** away from the **-** to prevent short circuit otherwise your monitor will no longer turn on like mine ). <br>
 **Anything over 18V is dangerous for the gate of the mosfet/transistor so you must use 12-18V Zener diode 1-5W**
 **Anything over 18V is dangerous for the mosfet/transistor so you must use HEATSINK(a big one and please just don't dip it water!)**
+**DO NOT** use multiple mosfets connected in parallel because it won't work! One of them will switch faster than the rest so most electricity would go through there. Meaning it will die just as fast
+if it was just one, then another will die, and another untill the circuit stops working. Just use a huge heatsink and lower voltage. Can't push this circuit much!
 
 # Still working on this! More circuits are comming soon!
