@@ -230,4 +230,9 @@ Then 14/15V( you can use AC/DC power adapter from your monitor, just isolate the
 **DO NOT** use multiple mosfets connected in parallel because it won't work! One of them will switch faster than the rest so most electricity would go through there. Meaning it will die just as fast
 if it was just one, then another will die, and another untill the circuit stops working. Just use a huge heatsink and lower voltage. Can't push this circuit much!
 
+### SSTC
+
+That's a nice circuit if you located in the USA!
+<img width="1024" height="602" alt="sstc" src="https://github.com/user-attachments/assets/6e0628b2-fc77-451d-95c5-cb1200d915b3" />
+
 # Still working on this! More circuits are comming soon!
