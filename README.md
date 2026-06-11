@@ -230,9 +230,56 @@ Then 14/15V( you can use AC/DC power adapter from your monitor, just isolate the
 **DO NOT** use multiple mosfets connected in parallel because it won't work! One of them will switch faster than the rest so most electricity would go through there. Meaning it will die just as fast
 if it was just one, then another will die, and another untill the circuit stops working. Just use a huge heatsink and lower voltage. Can't push this circuit much!
 
-### SSTC
+### Driverless SSTC
+
+This is one of the simplest Solid State Tesla Coil (SSTC) designs. Unlike a Slayer Exciter, the primary is driven directly by a MOSFET and the circuit runs from rectified mains power. The secondary itself provides the feedback needed for oscillation, so there is no separate feedback winding.
 
 That's a nice circuit if you located in the USA!
 <img width="1024" height="602" alt="sstc" src="https://github.com/user-attachments/assets/6e0628b2-fc77-451d-95c5-cb1200d915b3" />
+
+**WARNING:** <br>
+This circuit is connected directly to the mains. There is NO isolation from the wall outlet. Every part of the circuit should be treated as potentially lethal. Use an isolation transformer if you intend to experiment with this design. <br>
+
+**How it works:** <br>
+The rectifier converts AC into high-voltage DC. <br>
+The ballast limits current and prevents the MOSFET from instantly destroying itself. <br>
+The secondary coil and gate network create feedback which causes the MOSFET to self-oscillate near the resonant frequency of the secondary. <br>
+
+**Secondary coil:** <br>
+Use a typical Tesla coil secondary with several hundred turns of magnet wire. <br>
+Longer secondaries generally produce longer streamers but lower operating frequency. <br>
+Good winding quality is more important than squeezing in extra turns. <br>
+
+**Primary coil:** <br>
+Only a few turns of thick wire are normally used. <br>
+Experiment with spacing and position around the bottom of the secondary. <br>
+Too much coupling can cause excessive MOSFET stress and racing sparks. <br>
+
+**MOSFET:** <br>
+The IRFP460 shown in the schematic is a popular choice because of its high voltage rating. <br>
+Use a large heatsink. Even if the transistor survives electrically, heat can kill it quickly. <br>
+Avoid low-voltage MOSFETs such as IRFZ44N. <br>
+
+**Gate protection:** <br>
+The 12V TVS protects the MOSFET gate from voltage spikes. <br>
+Do not omit gate protection. The gate oxide is extremely fragile. <br>
+
+**Drain protection:** <br>
+The high-voltage TVS helps clamp dangerous drain spikes. <br>
+Without protection, voltage spikes can exceed the MOSFET rating and destroy it instantly. <br>
+
+**Ballast:** <br>
+The ballast is one of the most important components in this design. <br>
+It limits fault current and makes tuning far less destructive. <br>
+Many SSTC failures happen because the ballast was removed or undersized. <br>
+
+**Capacitors:** <br>
+Use capacitors intended for high-frequency operation. <br>
+Cheap electrolytic capacitors are not suitable for resonant parts of the circuit. <br>
+
+**Tuning:** <br>
+Small changes in primary position can dramatically affect performance. <br>
+Start with loose coupling and move the primary gradually. <br>
+If the MOSFET becomes excessively hot, stop and improve tuning before increasing power. <br>
 
 # Still working on this! More circuits are comming soon!
