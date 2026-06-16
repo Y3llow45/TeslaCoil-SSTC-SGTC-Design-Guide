@@ -246,19 +246,17 @@ The ballast limits current and prevents the MOSFET from instantly destroying its
 The secondary coil and gate network create feedback which causes the MOSFET to self-oscillate near the resonant frequency of the secondary. <br>
 
 **Secondary coil:** <br>
-Use a typical Tesla coil secondary with several hundred turns of magnet wire. <br>
-Longer secondaries generally produce longer streamers but lower operating frequency. <br>
-Good winding quality is more important than squeezing in extra turns. <br>
+7 inch tall 2 inch wide <br>
+Longer secondary means lower operating frequency! <br>
 
 **Primary coil:** <br>
-Only a few turns of thick wire are normally used. <br>
-Experiment with spacing and position around the bottom of the secondary. <br>
-Too much coupling can cause excessive MOSFET stress and racing sparks. <br>
+Only a few turns of thick wire. <br>
 
 **MOSFET:** <br>
-The IRFP460 shown in the schematic is a popular choice because of its high voltage rating. <br>
-Use a large heatsink. Even if the transistor survives electrically, heat can kill it quickly. <br>
-Avoid low-voltage MOSFETs such as IRFZ44N. <br>
+The IRFP460 is a great option <br>
+
+Avoid low-voltage MOSFETs such as IRFZ44N or IRF*** (like IRF640) <br>
+Use a large HEATSINK! <br>
 
 **Gate protection:** <br>
 The 12V TVS protects the MOSFET gate from voltage spikes. <br>
@@ -266,20 +264,17 @@ Do not omit gate protection. The gate oxide is extremely fragile. <br>
 
 **Drain protection:** <br>
 The high-voltage TVS helps clamp dangerous drain spikes. <br>
-Without protection, voltage spikes can exceed the MOSFET rating and destroy it instantly. <br>
 
-**Ballast:** <br>
-The ballast is one of the most important components in this design. <br>
-It limits fault current and makes tuning far less destructive. <br>
-Many SSTC failures happen because the ballast was removed or undersized. <br>
-
-**Capacitors:** <br>
-Use capacitors intended for high-frequency operation. <br>
-Cheap electrolytic capacitors are not suitable for resonant parts of the circuit. <br>
+Cheap electrolytic capacitors are not suitable for this circuit!
 
 **Tuning:** <br>
-Small changes in primary position can dramatically affect performance. <br>
-Start with loose coupling and move the primary gradually. <br>
-If the MOSFET becomes excessively hot, stop and improve tuning before increasing power. <br>
+Change the number of turns and the height of the primary. <br>
+The distance between the primary and secondary shouldn't be more than 4 inches or less than 1 inch. <br>
+You can put aluminium ball on top of the secondary to adjust the resonant frequency. <br>
+For even more precise tuning you can rise or bring down the aluminium ball ( or toroidal top load ). <br>
+
+### Cool stuff:
+formulas -> https://teslaresearch.jimdofree.com/tesla-coils/formulas-for-tesla-coils/
+Clasic SGTC -> https://deepfriedneon.com/tesla_guide.html
 
 # Still working on this! More circuits are comming soon!
