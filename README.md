@@ -238,32 +238,15 @@ That's a nice circuit if you located in the USA!
 <img width="1024" height="602" alt="sstc" src="https://github.com/user-attachments/assets/6e0628b2-fc77-451d-95c5-cb1200d915b3" />
 
 **WARNING:** <br>
-This circuit is connected directly to the mains. There is NO isolation from the wall outlet. Every part of the circuit should be treated as potentially lethal. Use an isolation transformer if you intend to experiment with this design. <br>
+This circuit is connected directly to the mains. There is NO isolation from the wall outlet. Every part of the circuit should be treated as **lethal**. <br>
 
-**How it works:** <br>
-The rectifier converts AC into high-voltage DC. <br>
-The ballast limits current and prevents the MOSFET from instantly destroying itself. <br>
-The secondary coil and gate network create feedback which causes the MOSFET to self-oscillate near the resonant frequency of the secondary. <br>
+**What MOSFET/IGBT to use:** <br>
+<img width="986" height="448" alt="Screenshot 2026-06-16 at 20-24-52 SSTC Circuit Guide" src="https://github.com/user-attachments/assets/a2802eca-e2d5-4931-ac8a-f7451ed08120" />
 
-**Secondary coil:** <br>
-7 inch tall 2 inch wide <br>
-Longer secondary means lower operating frequency! <br>
-
-**Primary coil:** <br>
-Only a few turns of thick wire. <br>
-
-**MOSFET:** <br>
-The IRFP460 is a great option <br>
-
-Avoid low-voltage MOSFETs such as IRFZ44N or IRF*** (like IRF640) <br>
-Use a large HEATSINK! <br>
-
-**Gate protection:** <br>
-The 12V TVS protects the MOSFET gate from voltage spikes. <br>
-Do not omit gate protection. The gate oxide is extremely fragile. <br>
-
-**Drain protection:** <br>
-The high-voltage TVS helps clamp dangerous drain spikes. <br>
+IGBTs are not a direct replacement for MOSFETs because they switch much slower and suffer from **current tail**, resulting in much higher switching losses at the high frequencies(**100–500 kHz**) used by SSTCs.<br>
+IGBTs are good at high-power, lower-frequency applications such as DRSSTC. Simply replacing the IRFP460 with an IGBT will lead to poor performance and excessive heating. <br>
+**Avoid** low-voltage MOSFETs such as IRFZ44N <br>
+Use a large **HEATSINK**! <br>
 
 Cheap electrolytic capacitors are not suitable for this circuit!
 
@@ -273,8 +256,28 @@ The distance between the primary and secondary shouldn't be more than 4 inches o
 You can put aluminium ball on top of the secondary to adjust the resonant frequency. <br>
 For even more precise tuning you can rise or bring down the aluminium ball ( or toroidal top load ). <br>
 
+**Push it to absolute FAILURE! Max performance!**
+1. Use this: Wolfspeed C3M0060065D
+2. Add a gate-source pulldown resistor - 10kΩ.
+3. Use a proper ultrafast HV diode/bridge instead of one rectifier diode!
+4. Use a MOV across mains input for surge protection.
+5. Use a snubber across drain-source or primary to reduce ringing.
+6. Add real mains fuse!
+7. Use giant heatsink with a fan!
+8. Shorten all wiring if possible!
+
+**WARNING! Read the safety guide first!**
+**These things can happen:**
+1. Melted wires
+2. Mains fuse blows
+3. TVS diode explodes
+4. Capacitors explodes or cracks
+5. Rectifier/Ballast overheats
+
+If you did some crazy stuff or have any questions feel free to email me!
+
 ### Cool stuff:
-formulas -> https://teslaresearch.jimdofree.com/tesla-coils/formulas-for-tesla-coils/
+formulas -> https://teslaresearch.jimdofree.com/tesla-coils/formulas-for-tesla-coils/ <br>
 Clasic SGTC -> https://deepfriedneon.com/tesla_guide.html
 
 # Still working on this! More circuits are comming soon!
