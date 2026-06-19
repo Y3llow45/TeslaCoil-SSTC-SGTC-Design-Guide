@@ -234,11 +234,12 @@ if it was just one, then another will die, and another untill the circuit stops 
 
 This is one of the simplest Solid State Tesla Coil (SSTC) designs. Unlike a Slayer Exciter, the primary is driven directly by a MOSFET and the circuit runs from rectified mains power. The secondary itself provides the feedback needed for oscillation, so there is no separate feedback winding.
 
-That's a nice circuit if you located in the USA!
+That's a nice circuit if you located in the USA! <a href="https://www.instructables.com/Simplest-POWERFUL-Solid-State-Tesla-Coil-SSTC/">Click here for the full tutorial</a><br>
+<br>
 <img width="1024" height="602" alt="sstc" src="https://github.com/user-attachments/assets/6e0628b2-fc77-451d-95c5-cb1200d915b3" />
 
 **WARNING:** <br>
-This circuit is connected directly to the mains. There is NO isolation from the wall outlet. Every part of the circuit should be treated as **lethal**. <br>
+This circuit is connected directly to the mains. There is NO isolation from the wall outlet. Every part of the circuit should be treated as **lethal**.
 
 **What MOSFET/IGBT to use:** <br>
 <img width="986" height="448" alt="Screenshot 2026-06-16 at 20-24-52 SSTC Circuit Guide" src="https://github.com/user-attachments/assets/a2802eca-e2d5-4931-ac8a-f7451ed08120" />
@@ -277,6 +278,12 @@ For even more precise tuning you can rise or bring down the aluminium ball ( or 
 If you did some crazy stuff or have any questions feel free to email me!
 
 ### Cool stuff:
+VERY nice SSTC design -> https://www.youtube.com/watch?v=4ZO1F67GnUg
+The gold standart -> https://www.tesla.nu/programs/javatc/javatc.html
+Flat pancake calculator -> https://coil32.net/online-calculators/flat-spiral-pancake-tesla-coil.html
+
+Less cool but still cool:
+Other calculators and circuits here -> https://classictesla.com/home/resources/
 formulas -> https://teslaresearch.jimdofree.com/tesla-coils/formulas-for-tesla-coils/ <br>
 Clasic SGTC -> https://deepfriedneon.com/tesla_guide.html
 
