@@ -277,14 +277,14 @@ For even more precise tuning you can rise or bring down the aluminium ball ( or 
 
 If you did some crazy stuff or have any questions feel free to email me!
 
-### Cool stuff:
-VERY nice SSTC design -> https://www.youtube.com/watch?v=4ZO1F67GnUg
-The gold standart -> https://www.tesla.nu/programs/javatc/javatc.html
-Flat pancake calculator -> https://coil32.net/online-calculators/flat-spiral-pancake-tesla-coil.html
+### Cool stuff: <br>
+VERY nice SSTC design -> https://www.youtube.com/watch?v=4ZO1F67GnUg <br>
+The gold standart -> https://www.tesla.nu/programs/javatc/javatc.html <br>
+Flat pancake calculator -> https://coil32.net/online-calculators/flat-spiral-pancake-tesla-coil.html <br>
 
-Less cool but still cool:
-Other calculators and circuits here -> https://classictesla.com/home/resources/
+Less cool but still cool: <br>
+Other calculators and circuits here -> https://classictesla.com/home/resources/ <br>
 formulas -> https://teslaresearch.jimdofree.com/tesla-coils/formulas-for-tesla-coils/ <br>
-Clasic SGTC -> https://deepfriedneon.com/tesla_guide.html
+Clasic SGTC -> https://deepfriedneon.com/tesla_guide.html <br>
 
 # Still working on this! More circuits are comming soon!
